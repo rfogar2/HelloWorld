@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E74E361A84149500948272 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E74E341A84149500948272 /* HelloWorldViewController.m */; };
+		22E74E371A84149500948272 /* HelloWorldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22E74E351A84149500948272 /* HelloWorldViewController.xib */; };
 		22F8E1DF1A840B29008603C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8E1DE1A840B29008603C7 /* main.m */; };
 		22F8E1E21A840B29008603C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8E1E11A840B29008603C7 /* AppDelegate.m */; };
 		22F8E1E51A840B29008603C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F8E1E41A840B29008603C7 /* ViewController.m */; };
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22E74E331A84149500948272 /* HelloWorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldViewController.h; sourceTree = "<group>"; };
+		22E74E341A84149500948272 /* HelloWorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldViewController.m; sourceTree = "<group>"; };
+		22E74E351A84149500948272 /* HelloWorldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelloWorldViewController.xib; sourceTree = "<group>"; };
 		22F8E1D91A840B29008603C7 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F8E1DD1A840B29008603C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22F8E1DE1A840B29008603C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -98,6 +103,9 @@
 			children = (
 				22F8E1DD1A840B29008603C7 /* Info.plist */,
 				22F8E1DE1A840B29008603C7 /* main.m */,
+				22E74E331A84149500948272 /* HelloWorldViewController.h */,
+				22E74E341A84149500948272 /* HelloWorldViewController.m */,
+				22E74E351A84149500948272 /* HelloWorldViewController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E74E371A84149500948272 /* HelloWorldViewController.xib in Resources */,
 				22F8E1E81A840B29008603C7 /* Main.storyboard in Resources */,
 				22F8E1ED1A840B29008603C7 /* LaunchScreen.xib in Resources */,
 				22F8E1EA1A840B29008603C7 /* Images.xcassets in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E74E361A84149500948272 /* HelloWorldViewController.m in Sources */,
 				22F8E1E51A840B29008603C7 /* ViewController.m in Sources */,
 				22F8E1E21A840B29008603C7 /* AppDelegate.m in Sources */,
 				22F8E1DF1A840B29008603C7 /* main.m in Sources */,
@@ -414,6 +424,7 @@
 				22F8E1FE1A840B29008603C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F8E1FF1A840B29008603C7 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +433,7 @@
 				22F8E2011A840B29008603C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
